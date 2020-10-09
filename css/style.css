@@ -1,8 +1,11 @@
+/* general settings */
 *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+/* general settings */
+/* set vetrina */
 .vetrina-shop{
   position: absolute;
   margin-left: 25%;
@@ -19,6 +22,8 @@
   display: inline-block;
   position: relative;
 }
+/* /set vetrina */
+/* immagini dei prodotti */
 .first-item{
   background-image: url(../img/pd1.jpg);
 }
@@ -27,13 +32,38 @@
 }
 .third-item{
   background-image: url(../img/pd3.jpg);
+  /* /immagini dei prodotti */
 }
+/* deals settings */
 .deal-items{
   position: absolute;
   top: 0;
   right: 8px;
   background-color: green;
 }
+/* /deals settings */
 .second-item .deal-items{
   background-color: red;
 }
+/* hover sugli item */
+.heart-item{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  color: red;
+  display: none;
+  font-size: 30px;
+}
+.box:hover  .heart-item{
+  display: block;
+}
+.first-item:hover .heart-item{
+  display: block;
+}
+.second-item:hover .heart-item{
+  display: block;
+}
+.third-item:hover .heart-item{
+  display: block;
+}
+/* /hover sugli item */
