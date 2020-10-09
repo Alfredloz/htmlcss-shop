@@ -5,7 +5,7 @@
   padding: 0;
 }
 /* general settings */
-/* set vetrina */
+/* item settings */
 .vetrina-shop{
   position: absolute;
   margin-left: 25%;
@@ -22,8 +22,8 @@
   display: inline-block;
   position: relative;
 }
-/* /set vetrina */
-/* immagini dei prodotti */
+/* /item settings */
+/* image item */
 .first-item{
   background-image: url(../img/pd1.jpg);
 }
@@ -32,7 +32,7 @@
 }
 .third-item{
   background-image: url(../img/pd3.jpg);
-  /* /immagini dei prodotti */
+  /* /image item */
 }
 /* deals settings */
 .deal-items{
@@ -42,14 +42,16 @@
   background-color: green;
 }
 /* /deals settings */
+/* red deals settings */
 .second-item .deal-items{
   background-color: red;
 }
-/* hover sugli item */
+/* red deals settings */
+/* hover item */
 .heart-item{
   position: absolute;
   bottom: 0;
-  left: 50%;
+  left: 45%;
   color: red;
   display: none;
   font-size: 30px;
@@ -57,13 +59,4 @@
 .box:hover  .heart-item{
   display: block;
 }
-.first-item:hover .heart-item{
-  display: block;
-}
-.second-item:hover .heart-item{
-  display: block;
-}
-.third-item:hover .heart-item{
-  display: block;
-}
-/* /hover sugli item */
+/* /hover item */
