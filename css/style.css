@@ -7,7 +7,6 @@
   position: absolute;
   margin-left: 25%;
   margin-top: 5%;
-
 }
 .container-items{
   margin-bottom: 30px;
@@ -18,14 +17,23 @@
   background-size: contain;
   background-repeat: no-repeat;
   display: inline-block;
+  position: relative;
 }
 .first-item{
   background-image: url(../img/pd1.jpg);
-
 }
 .second-item{
   background-image: url(../img/pd2.jpg);
 }
 .third-item{
   background-image: url(../img/pd3.jpg);
+}
+.deal-items{
+  position: absolute;
+  top: 0;
+  right: 8px;
+  background-color: green;
+}
+.second-item .deal-items{
+  background-color: red;
 }
