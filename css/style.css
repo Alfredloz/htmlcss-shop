@@ -3,12 +3,21 @@
   margin: 0;
   padding: 0;
 }
+.vetrina-shop{
+  position: absolute;
+  margin-left: 25%;
+  margin-top: 5%;
 
+}
+.container-items{
+  margin-bottom: 30px;
+}
 .box{
   height: 300px;
   width: 250px;
   background-size: contain;
   background-repeat: no-repeat;
+  display: inline-block;
 }
 .first-item{
   background-image: url(../img/pd1.jpg);
